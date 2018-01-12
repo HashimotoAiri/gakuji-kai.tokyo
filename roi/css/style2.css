@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+/*	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	line-height: 1.6em;
+	font-size:16px;
+*/}
+
+.mt20{
+	margin-top:20px;
+}
+
+
+.mb20{
+	margin-bottom:20px;
+}
+
+.bk_g{
+	background-image: -webkit-linear-gradient(270deg,rgba(255,255,255,1.00) 32.12%,rgba(232,231,237,1.00) 32.12%,rgba(232,231,237,1.00) 87.56%,rgba(207,207,207,1.00) 87.56%,rgba(255,255,255,1.00) 91.70%);
+	background-image: -moz-linear-gradient(270deg,rgba(255,255,255,1.00) 32.12%,rgba(232,231,237,1.00) 32.12%,rgba(232,231,237,1.00) 87.56%,rgba(207,207,207,1.00) 87.56%,rgba(255,255,255,1.00) 91.70%);
+	background-image: -o-linear-gradient(270deg,rgba(255,255,255,1.00) 32.12%,rgba(232,231,237,1.00) 32.12%,rgba(232,231,237,1.00) 87.56%,rgba(207,207,207,1.00) 87.56%,rgba(255,255,255,1.00) 91.70%);
+	background-image: linear-gradient(180deg,rgba(255,255,255,1.00) 32.12%,rgba(232,231,237,1.00) 32.12%,rgba(232,231,237,1.00) 87.56%,rgba(207,207,207,1.00) 87.56%,rgba(255,255,255,1.00) 91.70%);
+}
+
+#roi{
+		text-align:left;
+
+}
+#roi p{
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	line-height: 1.6em;
+	font-size:16px;
+		text-align:left;
+	}
+@media only screen and (min-width: 480px) {
+.bk_b{
+	background-color: #c0e6f6;
+	padding: 20px 0;
+	margin-top: 20px;
+	background-image: -webkit-linear-gradient(270deg,rgba(192,230,246,1.00) 85.49%,rgba(255,255,255,1.00) 85.49%);
+	background-image: -moz-linear-gradient(270deg,rgba(192,230,246,1.00) 85.49%,rgba(255,255,255,1.00) 85.49%);
+	background-image: -o-linear-gradient(270deg,rgba(192,230,246,1.00) 85.49%,rgba(255,255,255,1.00) 85.49%);
+	background-image: linear-gradient(180deg,rgba(192,230,246,1.00) 85.49%,rgba(255,255,255,1.00) 85.49%);
+}}
+
+@media only screen and (max-width: 480px) {
+	.bk_b{background-color: #c0e6f6;
+	padding: 20px 0;
+	margin-top: 20px;
+	
+	}
+	
+	}
+
+
+.msg{
+	background-image: url(../img/bk_roi.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:2em 0px;
+	margin-top:3em;
+}
+
+.msg img{
+	
+}
+
+h3{
+	font-size: 2.4em;
+	text-align:center;
+	color: #1597c2;
+	padding: 10px 20px 20px;
+	margin-bottom:20px;
+	background-image: url(../img/h3_bottom.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+}

@@ -1,0 +1,457 @@
+@media screen and (max-width: 960px) {
+
+
+input, textarea, select {
+font-size: 0.9em;
+line-height: 1.0em;
+padding: 2px;
+margin: 0px 0px 0px 0px;
+font-family: monospace;
+}
+
+th {
+white-space: normal;
+text-align: left;
+font-weight: normal
+}
+li {
+list-style-type: none;
+}
+button {
+padding: 3px;
+}
+label {
+cursor: pointer;
+}
+
+
+
+.comform-wrap {
+box-sizing: border-box;
+position: relative;
+margin: 8px auto 8px auto;
+margin-top: 8px;margin-bottom: 8px;max-width: 850px;
+border: 1px solid #FFFFFF;
+background-color: #FFFFFF;
+padding: 4px 4px 0px 4px;
+text-align: left;
+}
+
+.comform-title {
+text-align: center;
+max-width: auto;
+font-size: 32px;
+line-height: 1.6em;
+color: #FFFFFF;
+background-color: #4169E1;
+border: 1px solid #6AA1B7;font-weight: bold;
+padding: 4px 4px 4px 4px;
+margin: 8px 0px 16px 0px;
+margin-top: 8px;}
+
+
+.comform-container {
+box-sizing: border-box;
+border-top: 1px solid #BABFC4;
+border-left: 1px solid #BABFC4;
+}
+
+
+
+.comform-row {
+table-layout: fixed;
+display: table;
+width: 100%;
+}
+
+.comform-row .itemTitle {
+display: table-cell;
+width: 25%;
+vertical-align: top;
+padding: 10px 10px 10px 10px;font-weight: bold;line-height: 2.0;
+font-size: 20px;
+color: #555555;
+background-color: #EBF5FF;
+border: 0;
+border-right: 1px solid #BABFC4;
+border-bottom: 1px solid #BABFC4;
+box-sizing: border-box;
+}
+
+.comform-row .itemInput {
+display: table-cell;
+width: 75%;
+vertical-align: text-top;
+font-size: 20px;
+line-height: 2.0;
+color: #555555;
+background-color: #FFFFFF;
+padding: 10px 10px 10px 10px;border: 0;
+border-right: 1px solid #BABFC4;
+border-bottom: 1px solid #BABFC4;
+box-sizing: border-box;
+}
+
+
+.itemInput input[type="text"], .itemInput input[type="email"], .itemInput textarea, .itemInput select {
+font-size: 0.95em;
+font-family: monospace;
+line-height: 1.6;
+padding: 4px 8px 4px 8px;
+margin: 2px 0px;
+color: #555555;
+background-color: #FFFFFF;
+border: 1px solid #E7E7E7;
+}
+
+.itemInput select {
+padding-left: 0px;
+padding-right: 0px;
+max-width: 100%;
+}
+
+.itemInput select option {
+color: #444;
+background-color: #fff;
+}
+
+
+.itemInput input[type="text"], .itemInput input[type="email"], .itemInput textarea, .itemInput select {
+box-shadow: 0px 1px 2px 0px #ddd inset;
+border-radius: 4px;
+}
+
+.itemInput input[type="text"]:focus, .itemInput input[type="email"]:focus, .itemInput textarea:focus, .itemInput select:focus {
+box-shadow: 0px 0px 3px #f05050;
+}
+.itemInput label:hover {
+text-shadow: 0px 0px 2px #dd8080;
+}
+
+.comform-row .itemHrNoBorder {
+border-left: 0;
+border-right: 0;
+position: relative;
+left: -1px;
+}
+
+.comform-row .itemHrNoBorder hr {
+margin: 16px 0px;
+}
+
+.annot {
+color: #2A4391;
+font-size: 0.8em;
+padding: 0px;
+display: inline-block;
+vertical-align: top;
+}
+
+.annot-upper {
+margin: 0px 4px 1px 0px;
+}
+
+.annot-lower {
+margin: 1px 4px 0px 0px;
+}
+
+
+.req-mark {
+display: inline-block;
+font-size: 0.8em;
+height: 1.4em;
+color: #FF0000;
+background-color: ;
+font-family: meiryo, 'Hiragino Kaku Gothic Pro', sans-serif;
+white-space: nowrap;
+border-radius: 4px;
+position: relative;
+padding: 0.1em 0.2em;
+margin: 0 0 0 0.2em;}
+
+.checkLabel {
+margin: 0px 4px;
+font-size: 0.9em;
+}
+
+.tkaddress {
+display: inline-table;
+}
+
+.tkaddress th {
+background : 0;
+border: 0;
+padding: 0px 2px 0px 0px;
+text-align: left;
+}
+
+.tkaddress td {
+background : 0;
+border: 0;
+padding: 0px;
+}
+
+.tkaddress .search-address-button {
+padding: 1px 1px 1px 1px;
+font-size: 0.8em;
+}
+
+
+.choice-table {
+display: inline-table;
+border-spacing: 0;
+vertical-align: top;
+}
+
+.choice-table td {
+padding: 2px 4px 2px 18px;
+text-indent: -16px;
+}
+
+.choice-table td label {
+margin: 0px 0px 0px 2px;
+}
+
+
+.scale-table {
+}
+
+.scale-table td {
+text-align: center;
+padding: 0px 4px 0px 4px;
+}
+
+.blockConnect {
+display: inline-block;
+margin: 0px;
+vertical-align: top;
+}
+
+.comform-title, .itemTitle, .itemInput, .itemInput select, .annot, #form-button button, .proc-step {
+font-family: YuGothic, "MS PGothic", "MS PGothic", "Hiragino Kaku Gothic Pro", sans-serif;
+}
+
+
+
+
+
+
+.form-buttons {
+text-align: center;
+margin: 20px 0px 16px 0px;
+}
+
+.form-buttons button {
+font-size: 18px;
+}
+
+
+.form-buttons .deco-button-flat {
+/*border: 1px solid #6AA1B7;*/
+border: 0;
+padding: 6px 24px;
+background-color: rgb(52,84,180);
+color: #FFFFFF;
+letter-spacing: 2px;
+font-size: 20px;
+line-height: 1.4em;
+border-radius: 6px;
+}
+
+.form-buttons .deco-button-flat:active {
+position: relative;
+top: 2px;
+}
+
+
+#save-load-layer {
+position: fixed;
+top: -1px;
+left: 50%;margin-left: 240px;width: 180px;
+box-sizing: border-box;
+border: 1px solid #BABFC4;
+border-radius: 0px 0px 6px 6px;
+box-shadow: 0px 1px 3px #999;
+background-color: #EBF5FF;
+padding: 2px;
+font-size: 12px;
+color: #555555;
+z-index: 10;
+}
+
+#save-load-layer #save-load-title {
+text-align: center;
+background: 5px 0px url(/image/save-icon16.png) no-repeat;
+text-decoration: underline;
+}
+
+#save-load-layer #save-load-title:hover {
+cursor: pointer;
+}
+
+#save-load-layer #save-load-message {
+text-align: center;
+color: crimson;
+background-color: #fff;
+border-radius: 2px;
+text-shadow: 1px 1px 1px #ddd;
+}
+
+#save-load-buttons {
+margin: 2px 0px 2px 0px;
+padding: 2px;
+color: #444;
+}
+
+#save-load-buttons li {
+margin: 0px 0px 8px 0px;
+}
+
+#save-load-buttons button {
+width: 100%;
+line-height: 2.0em;
+padding: 2px 4px;
+margin: 0px 4px 2px 0px;
+color: #FFFFFF;
+background-color: #4169E1;
+border: 1px solid #ddd;
+border-radius: 4px;
+}
+#save-load-buttons button:hover {
+text-decoration: underline;
+background-color: rgb(52,84,180)}
+
+
+
+
+
+.comform-wrap {
+max-width: 100%;
+padding: 0px 0px 8px 0px;
+border: 0;
+margin: 0;
+}
+
+
+
+
+.comform-container {
+width: 100%;
+}
+
+.comform-row {
+display: block;
+}
+
+.comform-title {
+margin-right: auto;
+margin-left: auto;
+padding: 6px 6px 6px 10px;
+border-left: 0;
+border-right: 0;
+text-align: left;
+}
+
+.comform-row .itemTitle, .comform-row .itemInput {
+display: block;
+width: 100%;
+padding: 6px;
+}
+
+.itemInput input[type="text"]:not([size]), .itemInput input[name^="tkna"], .itemInput input[type="email"], .itemInput textarea {
+box-sizing: border-box;
+}
+
+.itemInput input[type="text"][size][name^="text"] {
+box-sizing: content-box;
+width: 94% !important;
+}
+
+.itemInput input[type="file"] {
+width: 100%;
+}
+
+.req-mark {
+float: none;
+}
+
+#error-message {
+/*font-size: 1.3rem;*/
+}
+
+#form-button {
+width: auto;
+}
+
+#form-button button, #form-button button.deco-button {
+/*font-size: 1.3rem;*/
+}
+
+.itemInput input, .itemInput textarea {
+/*font-size: 1.1rem;*/
+}
+
+#save-load-layer {
+left: 0;
+width: 280px;
+margin: 0;
+font-size: 18px;
+}
+
+#save-load-layer #save-load-title {
+background: 8px 0px url(/image/save-icon32.png) no-repeat;
+line-height: 32px;
+}
+
+#save-load-buttons li {
+margin-bottom: 6px;
+}
+
+#save-load-buttons button {
+padding: 2px;
+}
+
+#proc-step-container {
+}
+
+.proc-step {
+/*font-size: 1.2em;*/
+display: table-cell;
+}
+
+}
+
+@media screen and (max-width: 850px) {
+}
+@media screen and (max-width: 840px) {
+    .itemInput input[name^="text"], .itemInput textarea[name^="text"], .itemInput input[name^="tkna"], .itemInput input[name^="tkem"], .itemInput input[type="file"] {
+        /*width: 98%;*/
+    }
+    .itemInput .itemChoice {
+        max-width: 100%;
+    }
+}
+@media screen and (max-width: 415px) {
+    .itemInput input[type="text"], .itemInput input[type="email"], .itemInput textarea, .itemInput select {
+        font-size: 16px;
+    }
+    .comform-title {
+        font-size: 18px;
+    }
+    .itemTitle, .itemInput {
+        font-size: 16px;
+    }
+    .itemInput .tkaddress th {
+        font-size: 14px;
+        width: 72px;
+    }
+    .itemInput .tkaddress td {
+
+    }
+    .itemInput .tkaddress input[name$="-city"], .itemInput input[name$="-chomei"], .itemInput input[name$="-tatemono"] {
+        width: 93%;
+    }
+    #form-button button, #form-button button.deco-button {
+        font-size: 16px;
+    }
+}
